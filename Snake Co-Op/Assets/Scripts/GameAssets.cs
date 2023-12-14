@@ -22,7 +22,9 @@ public class GameAssets : MonoBehaviour
     private void Awake() {
         i = this;
     }
-
+    
     public Sprite snakeHeadSprite;
+    public Sprite snakeBodySprite;
+    public Sprite foodSprite;
 
 }

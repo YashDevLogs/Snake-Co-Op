@@ -119,7 +119,7 @@ namespace CodeMonkey.Utils {
 
         // Create a Text Popup in the World, no parent
         public static void CreateWorldTextPopup(string text, Vector3 localPosition) {
-            CreateWorldTextPopup(null, text, localPosition, 40, Color.white, localPosition + new Vector3(0, 20), 1f);
+            CreateWorldTextPopup(null, text, localPosition, 12, Color.white, localPosition + new Vector3(0, 5), 1f);
         }
         
         // Create a Text Popup in the World
